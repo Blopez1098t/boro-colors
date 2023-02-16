@@ -1,0 +1,66 @@
+:root {
+    --dark-blue: #264653;
+    --light-green: #2a9d8f;
+    --yellow: #e9c46a;
+    --orange: #f4a261;
+    --salmon: #e76f51;
+    }
+    .container-fluid {
+    color: var(--dark-blue);
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 100vh;
+    background-color: var(--yellow);
+    }
+   
+    .row {
+    border: 1px solid var(--dark-blue);
+    min-height: 50px;
+    }
+
+    div[class^="col"] {
+        text-align: center;
+    } 
+    .boro{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 400%;
+    }
+    .st{
+        font-family: 'Happy Monkey', cursive;
+        font-size: 250%;
+    }
+    .color{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 250%;
+    }
+    .register{
+        font-family: 'Happy Monkey', cursive;
+        font-size: 200%;
+        border: 2px solid var(--dark-blue);
+        border-radius: 50px;
+    }
+    .date{
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 120%;
+    }
+    .walk{
+        font-family: 'Happy Monkey', cursive;
+        font-size: 110%;
+    }
+    .text{
+        font-family: 'Happy Monkey', cursive;
+        font-size: 80%;
+    }
+    .button{
+        font-family: 'Happy Monkey', cursive;
+        font-size: 200%;
+        border: 2px solid var(--dark-blue);
+        border-radius: 50px;
+    }
+    .circle{
+      border: var(--dark-blue) 2px solid;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      margin:auto;
+    }
